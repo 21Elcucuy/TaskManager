@@ -1,0 +1,11 @@
+/home/ahmad/Programming/TaskManager/Helper/bin/Debug/net8.0/Helper.deps.json
+/home/ahmad/Programming/TaskManager/Helper/bin/Debug/net8.0/Helper.dll
+/home/ahmad/Programming/TaskManager/Helper/bin/Debug/net8.0/Helper.pdb
+/home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/Helper.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/Helper.AssemblyInfoInputs.cache
+/home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/Helper.AssemblyInfo.cs
+/home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/Helper.csproj.CoreCompileInputs.cache
+/home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/Helper.dll
+/home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/refint/Helper.dll
+/home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/Helper.pdb
+/home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/ref/Helper.dll

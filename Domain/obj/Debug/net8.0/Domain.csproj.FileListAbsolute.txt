@@ -1,0 +1,11 @@
+/home/ahmad/Programming/TaskManager/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/ahmad/Programming/TaskManager/Domain/bin/Debug/net8.0/Domain.dll
+/home/ahmad/Programming/TaskManager/Domain/bin/Debug/net8.0/Domain.pdb
+/home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/Domain.dll
+/home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/Domain.pdb
+/home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/ref/Domain.dll
