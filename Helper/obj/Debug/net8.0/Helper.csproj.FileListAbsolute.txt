@@ -9,3 +9,4 @@
 /home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/refint/Helper.dll
 /home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/Helper.pdb
 /home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/ref/Helper.dll
+/home/ahmad/Programming/TaskManager/Helper/obj/Debug/net8.0/Helper.sourcelink.json

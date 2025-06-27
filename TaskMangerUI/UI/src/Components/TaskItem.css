@@ -1,0 +1,85 @@
+.task-card {
+  background-color: #fff2f2;
+  border-left: 5px solid #999;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+  position: relative;
+  
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+}
+
+.task-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.task-desc {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-date {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.task-status {
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  border :none;
+  font-size: 0.8rem;
+  color: white;
+  text-transform: capitalize;
+}
+
+/* Color status variants */
+.task-card.InProgress {
+  border-left-color: orange;
+}
+
+.task-card.Completed {
+  border-left-color: green;
+}
+
+.task-status.InProgress {
+  background-color: orange;
+}
+
+.task-status.Completed {
+  background-color: green;
+}
+.delete-button {
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  border: none;
+  font-size: 0.8rem;
+  color: white;
+  background-color: #f44336; /* Red color */
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-left: auto; /* Pushes button to right */
+ 
+}
+
+.delete-button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+.display-delete{
+  display: flex;
+  width: 100%;
+}

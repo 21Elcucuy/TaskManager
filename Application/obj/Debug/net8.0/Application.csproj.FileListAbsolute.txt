@@ -17,3 +17,4 @@
 /home/ahmad/Programming/TaskManager/Application/obj/Debug/net8.0/Application.pdb
 /home/ahmad/Programming/TaskManager/Application/obj/Debug/net8.0/Application.genruntimeconfig.cache
 /home/ahmad/Programming/TaskManager/Application/obj/Debug/net8.0/ref/Application.dll
+/home/ahmad/Programming/TaskManager/Application/obj/Debug/net8.0/Application.sourcelink.json

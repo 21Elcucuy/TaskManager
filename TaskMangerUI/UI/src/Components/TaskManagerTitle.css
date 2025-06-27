@@ -1,0 +1,11 @@
+.TaskManagerTitle-Container{
+    background-color: rgb(56, 56, 235);
+    width: 100%;
+    padding:10px;
+
+}
+.TaskManagerTitle-Container h1{
+    font-size: large;
+    color :white;
+    text-align: center;
+}

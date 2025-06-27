@@ -24,7 +24,7 @@ public class AuthController : ControllerBase
        var Response =  await _authServices.LoginAsync(loginRequest);
        if (!Response.IsAuthenticated)
        {
-           return BadRequest();
+           return BadRequest(Response.Message);
            
        }
 

@@ -20,7 +20,7 @@ public class TaskItemServices :ITaskItemServices
             Name = AddtaskItem.Name,
             Description = AddtaskItem.Description,
             Created = DateTime.Now,
-            Status = Status.Done,
+            Status = Status.InProgress,
             UserId = UserId,
         };
         var response =  await _taskRepository.CreateAsync(NewItem);
@@ -34,10 +34,11 @@ public class TaskItemServices :ITaskItemServices
         var ResponseItem = new TaskItemResponse()
         {
             IsThereError = false,
+            Id  = response.Id,
             Name = AddtaskItem.Name,
             Description = AddtaskItem.Description,
             Created = DateTime.Now,
-            Status = Status.Done,
+            Status = Status.InProgress,
         };
         return ResponseItem;
     }
@@ -51,6 +52,7 @@ public class TaskItemServices :ITaskItemServices
         var Response = new TaskItemResponse()
         {
             IsThereError = false,
+            Id = Result.Id,
             Name = Result.Name,
             Description = Result.Description,
             Created = Result.Created,
@@ -82,6 +84,7 @@ public class TaskItemServices :ITaskItemServices
         var respnse = new TaskItemResponse()
         {
             IsThereError = false,
+            Id = Result.Id,
             Name = Result.Name,
             Description = Result.Description,
             Status = Result.Status,
@@ -97,6 +100,7 @@ public class TaskItemServices :ITaskItemServices
         {
             Response.Add(new TaskItemResponse()
                 {
+                    Id = task.Id,
                     Name = task.Name,
                     Description = task.Description,
                     IsThereError =false,
@@ -112,6 +116,7 @@ public class TaskItemServices :ITaskItemServices
         var Result = await _taskRepository.GetTaskItemByIdAsync(taskId);
         var Response = new TaskItemResponse()
         {
+            Id = Result.Id,
             IsThereError = false,
             Name = Result.Name,
             Description = Result.Description,

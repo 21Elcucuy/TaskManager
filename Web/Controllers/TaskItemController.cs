@@ -53,18 +53,18 @@ public class TaskItemController : ControllerBase
       return Ok(Response);
    }
 
-   [HttpDelete("{Id}")]
-   public async Task<IActionResult> DeleteTaskItem([FromQuery]Guid Id)
+   [HttpDelete("{id}")]
+   public async Task<IActionResult> DeleteTaskItem(Guid id)
    {
       var UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-      var Response = await   _taskitem.DeleteTaskItem(Id,UserId);
+      var Response = await   _taskitem.DeleteTaskItem(id,UserId);
       if (Response.IsThereError == true)
          return BadRequest();
       return Ok(Response);
    }
 
    [HttpGet("{id}")]
-   public async Task<IActionResult> GetTaskItemById([FromQuery]Guid id)
+   public async Task<IActionResult> GetTaskItemById(Guid id)
    { 
       var Response = await   _taskitem.GetTaskItemById(id);
        if (Response.IsThereError == true)

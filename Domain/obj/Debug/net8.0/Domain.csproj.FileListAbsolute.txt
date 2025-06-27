@@ -9,3 +9,4 @@
 /home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/refint/Domain.dll
 /home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/Domain.pdb
 /home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/ref/Domain.dll
+/home/ahmad/Programming/TaskManager/Domain/obj/Debug/net8.0/Domain.sourcelink.json
